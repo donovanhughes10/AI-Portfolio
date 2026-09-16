@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donovan Hughes — Portfolio</title>
+<style>
+  :root {
+    --bg: #111318;
+    --card-bg: #1b1e26;
+    --text: #f2f2f2;
+    --muted: #b8bcc8;
+    --accent: #4da3ff;
+    --focus: #ffd54a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #2a2e3a;
+  }
+  header h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.01em;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  section {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.75rem;
+  }
+  section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.75rem;
+  }
+  section p {
+    font-size: 1.02rem;
+    color: var(--text);
+  }
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .skills-list li {
+    background: #262b38;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+  .status-badge {
+    display: inline-block;
+    background: #3a2f0a;
+    color: #ffd54a;
+    border: 1px solid #ffd54a;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-top: 0.5rem;
+  }
+  a {
+    color: var(--accent);
+  }
+  a:focus,
+  button:focus {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 1.5rem;
+  }
+  @media (max-width: 480px) {
+    header { padding: 2rem 1rem 1.25rem; }
+    header h1 { font-size: 1.6rem; }
+    header p { font-size: 0.95rem; }
+    main { padding: 1rem; }
+    section { padding: 1.25rem 1.25rem; }
+    section h2 { font-size: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Donovan Hughes</h1>
+  <p>Business Administration Student &amp; Student-Athlete</p>
+</header>
+
+<main>
+
+  <section aria-labelledby="about-heading">
+    <h2 id="about-heading">About</h2>
+    <p>
+      I'm a Business Administration student at Alvernia University and a member of the university's
+      baseball team, with prior study at County College of Morris where I served as team captain and
+      was a two-time Academic All-American. Alongside school and athletics, I've worked in customer-facing
+      and leadership roles including crew leader, banquet server, and equipment staff, and I competed in
+      the Susquehanna Sales Pitch Competition.
+    </p>
+  </section>
+
+  <section aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+    <ul class="skills-list">
+      <li>Leadership</li>
+      <li>Customer Service</li>
+      <li>Team Management</li>
+      <li>Client Relations</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="project-heading">
+    <h2 id="project-heading">Project</h2>
+    <p>Project details coming soon.</p>
+    <span class="status-badge">Status: Not yet added</span>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Donovan Hughes
+</footer>
+
+</body>
+</html>
